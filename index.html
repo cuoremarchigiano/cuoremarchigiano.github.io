@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cuore Marchiggiano</title>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="logo_cuoreMarchiggiano.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  <div class="overflow-h">
+
+    <header class="header">
+      <div class="header__content">
+        <a class="header__logo" href="">
+          <!-- <strong>Cuore Marchigiano</strong> -->
+          <img src="logo_cuoreMarchiggiano.png">
+        </a>
+        <ul class="header__menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#garanzie">Garanzie</a></li>
+          <li><a href="#sapore_sincero">Olive all'ascolana</a></li>
+          <li><a href="#saltimbocca">Saltimbocca</a></li>
+          <li><a href="#fritti_misti">Fritti misti</a></li>
+        </ul>
+        <div class="header__quick">
+          <svg id="call" onclick="chiama()" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+            <title>Call</title>
+            <path
+              d="M451 374c-15.88-16-54.34-39.35-73-48.76-24.3-12.24-26.3-13.24-45.4.95-12.74 9.47-21.21 17.93-36.12 14.75s-47.31-21.11-75.68-49.39-47.34-61.62-50.53-76.48 5.41-23.23 14.79-36c13.22-18 12.22-21 .92-45.3-8.81-18.9-32.84-57-48.9-72.8C119.9 44 119.9 47 108.83 51.6A160.15 160.15 0 0083 65.37C67 76 58.12 84.83 51.91 98.1s-9 44.38 23.07 102.64 54.57 88.05 101.14 134.49S258.5 406.64 310.85 436c64.76 36.27 89.6 29.2 102.91 23s22.18-15 32.83-31a159.09 159.09 0 0013.8-25.8C465 391.17 468 391.17 451 374z"
+              fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
+          </svg>
+          <a class="button-small" id="mail" href="mailto:customerservice@cuoremarchigiano.com">E-Mail</a>
+          <div class="icon-hamburger">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <div id="home" class="grid hero">
+      <div class="col-50 pt-4 sma-text-center reveal">
+        <h1>Produciamo le migliori olive all'ascolana </h1>
+        <h2 class="font-normal">con passione e tradizione</h2>
+        <p>Siamo una realtà del Piceno nata dalla conoscenza ed esperienza nel settore alimentare
+          e gastronomico. </p>
+        <a href="#olive_all_ascolana" class="button">di più</a>
+      </div>
+      <div class="col-50 p-3 relative">
+        <svg class="blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#E1914E"
+            d="M39.1,-51.2C52.1,-44.4,64.9,-34.8,62.6,-24.4C60.3,-14.1,43,-2.9,34.6,7.6C26.2,18.1,26.8,27.9,22.5,32.6C18.2,37.4,9.1,37.2,-4,42.7C-17.1,48.2,-34.3,59.5,-48.2,57.9C-62.2,56.2,-73.1,41.8,-78.7,25.4C-84.3,9,-84.7,-9.3,-75.5,-20.5C-66.4,-31.7,-47.6,-35.8,-33.5,-42.2C-19.3,-48.6,-9.6,-57.4,1.7,-59.8C13.1,-62.1,26.2,-58.1,39.1,-51.2Z"
+            transform="translate(100 100)" />
+        </svg>
+        <img src="cuoco.png" class="img-res img-round" alt="cuoco">
+      </div>
+    </div>
+
+    <div class="cover mt-3"
+      style="background-image:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url('Piceno.png');">
+      <div class="cover__content reveal">
+        <h1> Un prodotto
+          che racchiude
+          un territorio: </h1>
+        <h2 class="font-normal"> il Piceno</h2>
+
+        <!-- <a href="" class="button">Scopri come</a> -->
+      </div>
+    </div>
+
+    <div id="garanzie" class="grid grid--center">
+      <div class="col-70 text-center pt-4 pb-3 reveal">
+        <h2>Garanzia di freschezza
+          e consegna entro 48 ore</h2>
+        <p>Il miglior servizio a disposizione per te</p>
+      </div>
+      <div class="col-33 zoom">
+        <div class="cover round mb-2"
+          style="background-image:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url('strada.png');">
+          <h3> Freschezza del prodotto garantita </h3>
+          <p> dal trasporto in celle frigorifero a temperatura
+            controllata </p>
+        </div>
+      </div>
+      <div class="col-33 zoom">
+        <div class="cover round mb-2"
+          style="background-image:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url('mercato.png');">
+          <h3> Carni certificate CE </h3>
+          <p> e lavorazioni nel rispetto delle norme igienico-sanitarie. </p>
+        </div>
+      </div>
+      <div class="col-33 zoom">
+        <div class="cover round mb-2"
+          style="background-image:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url('cucina.png');">
+          <h3> Consegna in 48 ore </h3>
+          <p> dalla ricezione dell'ordine. </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="sapore_sincero" class="grid hero mt-3">
+      <div class="col-50 p-3 relative">
+        <svg class="blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#E1914E"
+            d="M40.5,-57.2C45.8,-51.8,39,-31.1,39,-16.2C39,-1.3,45.8,7.9,43,13.1C40.1,18.2,27.5,19.3,18.7,32.3C9.9,45.2,5,69.9,-5.7,77.8C-16.4,85.6,-32.8,76.7,-48.1,65.9C-63.4,55.1,-77.7,42.5,-77.3,28.7C-77,14.8,-62,-0.2,-55.2,-16.9C-48.4,-33.6,-49.7,-51.9,-41.9,-56.5C-34,-61.1,-17,-51.9,0.3,-52.2C17.6,-52.6,35.1,-62.6,40.5,-57.2Z"
+            transform="translate(100 100)" />
+        </svg>
+
+        <img src="olive_all_ascolana.png" class="img-res img-round" alt="olive all'ascolana">
+      </div>
+      <div class="col-50 p-3 sma-text-center reveal">
+        <h2 id="oliveTitle" class="text-1">Olive all'ascolana</h2>
+        <h3 class="text-2">Sapore sincero</h3>
+        <p>La più tipica
+          specialità della tradizione picena, per una vera
+          esperienza dei sensi. Il prodotto Cuore Marchigiano
+          da sempre più richiesto, ad un prezzo
+          semplicemente onesto.</p>
+        <!-- <a href="" class="button">Scopri di più</a> -->
+      </div>
+    </div>
+
+
+    <div id="olive_all_ascolana" class="grid grid--center text-center">
+      <div class="col-70 text-center pt-4 pb-3">
+        <h2>Cosa Offriamo</h2>
+        <p>Abbiamo tutto quello che ti serve per un ottimo pasto.</p>
+      </div>
+      <div class="col-33 mb-3 zoom">
+        <img class="img-res img-small round cibo" style="object-fit: contain;" src="cibo1.png" alt="Olive all'ascolana">
+        <h4>Olive all'ascolana</h4>
+        <!-- <p>Lorem sia amet</p> -->
+      </div>
+      <div class="col-33 mb-3 zoom">
+        <img class="img-res img-small round cibo" style="object-fit: contain;" src="cibo2.png" alt="Olive al tartufo">
+        <h4>Olive al tartufo</h4>
+        <!-- <p>Lorem sia amet</p> -->
+      </div>
+      <div class="col-33 mb-3 zoom">
+        <img class="img-res img-small round cibo" style="object-fit: contain;" src="cibo3.png" alt="Olive vegetariane">
+        <h4>Olive vegetariane</h4>
+        <!-- <p>Lorem sia amet</p> -->
+      </div>
+    </div>
+
+
+    <div id="saltimbocca" class="grid hero mt-3">
+      <div class="col-50 p-3 sma-text-center reveal">
+        <h2 id="oliveTitle" class="text-1">Saltimbocca</h2>
+        <h3 class="text-2">L'aperitivo, o il secondo, diventa davvero
+          sfizioso</h3>
+        <p>Disponibili
+          in quattro versioni differenti. Dal classico
+          cotto e formaggio alle varianti con mortadella,
+          salame piccante o wurstel. Cambiano gli
+          ingredienti, ma la base è sempre la stessa:
+          un gusto a cui è difficile resistere.</p>
+        <!-- <a href="" class="button">Scopri di più</a> -->
+      </div>
+      <div class="col-50 p-3 relative">
+        <svg class="blob" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#E1914E"
+            d="M31.1,-47.7C33.1,-41.3,22.7,-22.7,27.7,-8.7C32.6,5.3,53.1,14.6,56.8,23.1C60.4,31.6,47.3,39.4,35.1,42.9C22.8,46.3,11.4,45.5,0.1,45.4C-11.3,45.4,-22.6,46,-25.1,39.4C-27.7,32.7,-21.6,18.9,-19.2,10.1C-16.8,1.2,-18.2,-2.6,-25.2,-16.6C-32.2,-30.6,-44.8,-54.9,-41.6,-60.8C-38.3,-66.8,-19.2,-54.5,-2.3,-51.4C14.5,-48.2,29.1,-54.1,31.1,-47.7Z"
+            transform="translate(60 85)" />
+        </svg>
+
+        <img src="saltimbocca.png" class="img-res img-round" alt="Saltimbocca">
+      </div>
+    </div>
+
+    <div id="fritti_misti" class="grid grid--center text-center">
+      <div class="col-70 text-center pt-4 pb-3">
+        <h2>Fritti misti</h2>
+        <p> Il gusto
+          pieno del cremino, con la sua morbida e
+          avvolgente crema gialla, decantata dal
+          profumo d'anice dell'Anisetta Meletti.</p>
+      </div>
+      <div class="col-33 mb-3 zoom">
+        <img class="img-res img-small round cibo" style="object-fit: contain;" src="mozzarelline.png"
+          alt="mozzarelline">
+        <h4>Mozzarelline</h4>
+        <!-- <p>Lorem sia amet</p> -->
+      </div>
+      <div class="col-33 mb-3 zoom">
+        <img class="img-res img-small round cibo" style="object-fit: contain;" src="cremini.png" alt="cremini">
+        <h4>Cremini</h4>
+        <!-- <p>Lorem sia amet</p> -->
+      </div>
+      <div class="col-33 mb-3 zoom">
+        <img class="img-res img-small round cibo" style="object-fit: contain;" src="creminiAlCioccolato.png"
+          alt="cremini al cioccolato">
+        <h4>Cremini al cioccolato</h4>
+        <!-- <p>Lorem sia amet</p> -->
+      </div>
+    </div>
+
+
+
+
+    <div id="4" class="grid hero">
+
+      <div class="col-50 p-3 sma-text-center reveal">
+        <h2 class="text-1">Scopri le nostre squisite pietanze</h2>
+        <h3>Dalla carne al fritto misto
+          all'ascolana. E oltre.</h3>
+        <p>Dalla nostra vicinanza e affinità con l'Abruzzo è nata
+          l'idea di diversificare ulteriormente l'offerta Cuore Marchigiano includendo i prodotti
+          tipici di questa regione.</p>
+        <a href="mailto:customerservice@cuoremarchigiano.com" class="button">Contattaci ora</a>
+      </div>
+      <div class="col-50 p-3 relative">
+        <img src="logo_cuoreMarchiggiano.png" class="img-res"="logo">
+      </div>
+    </div>
+
+
+    <div class="spacer"></div>
+
+
+
+
+    <footer class="footer pt-4 pb-4 mt-4">
+      <div class="grid">
+        <div class="col-50 mt-2 reveal">
+          <h3>Cuore Marchigiano</h3>
+          <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ad quisquam provident, quidem doloremque
+            sapiente quam earum labore expedita accusantium eaque, accusamus nobis. Corrupti error, quis suscipit odio
+            impedit quibusdam.</p> -->
+        </div>
+        <div class="col-25 mt-2 reveal">
+          <!-- <h3>Contatti</h3> -->
+          <!-- <ul>
+            <li>Lore siam</li>
+            <li>Lore siam</li>
+            <li>Lore siam</li>
+            <li>Lore siam</li>
+          </ul> -->
+          <h4>Sede legale</h4>
+          <p>Via Pasubio, 36
+            San Benedetto del Tronto 63074 (AP)</p>
+          <h4>Sede operativa</h4>
+          <p>Via Metauro 8/A
+            Martinsicuro 64014 (TE)</p>
+        </div>
+        <div class="col-25 mt-2 reveal">
+          <h3>Contatti</h3>
+          <ul>
+            <li>+393471081755</li>
+            <li>customerservice@cuoremarchigiano.com</li>
+          </ul>
+          <h4>C.F.</h4>
+          <p>02536550441</p>
+          <h4>P. IVA</h4>
+          <p>02536550441</p>
+        </div>
+
+      </div>
+    </footer>
+
+
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.min.js" integrity="sha512-achKCfKcYJg0u0J7UDJZbtrffUwtTLQMFSn28bDJ1Xl9DWkl/6VDT3LMfVTo09V51hmnjrrOTbtg4rEgg0QArA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    var lastScroll = 0;
+    document.addEventListener("scroll", () => {
+      if (lastScroll < window.scrollY) {
+        document.getElementsByClassName("header")[0].style = "top: -160px; " + (window.scrollY > 0 ? "box-shadow: 0px 1px 3px black;" : "")
+      } else {
+        document.getElementsByClassName("header")[0].style = "top: 0px;" + (window.scrollY > 0 ? " box-shadow: 0px 1px 3px black;" : "")
+      }
+      lastScroll = window.scrollY
+    })
+
+    let item = document.querySelector('.icon-hamburger');
+    item.addEventListener("click", function () {
+      document.body.classList.toggle('menu-open');
+    });
+
+    const menuItems = document.querySelectorAll('.header__menu li a');
+    menuItems.forEach(item => {
+      item.addEventListener('click', function (event) {
+        document.body.classList.remove('menu-open');
+      });
+    });
+
+
+    function chiama() {
+      window.location.href = "tel:+393471081755";
+    }
+
+    // JQUERY
+
+    ScrollReveal().reveal('.reveal', { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 });
+
+    ScrollReveal().reveal('.zoom', { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false });
+
+
+  </script>
+
+</body>
+
+</html>
+
+<!-- developed by Fabrizio Zampetti -->

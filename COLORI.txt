@@ -1,0 +1,3 @@
+Primario:   #FFFFFF
+Secondario: #EFECE3
+Evidenza:   #E1914E
